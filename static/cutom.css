@@ -1,0 +1,7 @@
+body,
+.container,
+main,
+#content,
+.content {
+    max-width: 2000px !important;
+}

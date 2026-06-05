@@ -1,0 +1,66 @@
+baseURL = "https://yuliwen.github.io/"
+theme = "barks-main"
+title = "Liwen Yu"
+
+[params.head]
+    author = "Liwen Yu"
+    custom_css = "/custom.css"
+    description = "Hi, I'm Liwen, and this is my website!"
+    keywords = ["Psychology", "Children", "Research"]
+
+[params.typography]
+    title_font = "Bree Serif"
+    body_font = "Source Sans Pro"
+
+[params.colors]
+    theme_color = "#333333"
+    background_color = "#fcfbf9"
+    text_color = "#333333"
+    link_color = "#60c17d"
+
+[params.social]
+    [params.social.email]
+        name = "E-Mail"
+        class = "fas fa-envelope"
+        url = "mailto:yuliwen@u.nus.edu"
+        weight = 1
+[params.social.google_scholar]
+        name = "Google Scholar"
+        class = "ai ai-google-scholar-square"
+        url = "https://scholar.google.com/citations?user=L6Y2C4kAAAAJ&hl=en"
+        weight = 2
+[params.social.researchgate]
+        name = "ResearchGate"
+        class = "fab fa-researchgate"
+        url = "https://www.researchgate.net/profile/Liwen-Yu-5"
+        weight = 3
+
+[params.navigation]
+    show_navigation = true
+
+[params.footer]
+    show_footer = true
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  
+  [[menu.main]]
+    name = "Research"
+    url = "/research/"
+    weight = 2
+[[menu.main]]
+    name = "Publications"
+    url = "/publications/"
+    weight = 3
+[[menu.main]]
+    name = "CV"
+    url = "/cv/"
+    weight = 4
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
