@@ -7,7 +7,6 @@ title = "Liwen Yu"
     custom_css = "/custom.css"
     description = "Hi, I'm Liwen, and this is my website!"
     keywords = ["Psychology", "Children", "Research"]
-    favicon = "/icon.png"
 
 [params.typography]
     title_font = "Bree Serif"
